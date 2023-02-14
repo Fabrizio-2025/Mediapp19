@@ -16,7 +16,7 @@ public class CORS implements Filter {
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-        // TODO Auto-generated method stub
+
 
     }
 
@@ -36,12 +36,12 @@ public class CORS implements Filter {
         } else {
             chain.doFilter(req, res);
         }
-        // chain.doFilter(req, res);
+
     }
 
     @Override
     public void destroy() {
-        // TODO Auto-generated method stub
+
 
     }
 
